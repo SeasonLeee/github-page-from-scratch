@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+<script src="three.r92.min.js"></script>
+<script src="vanta.birds.min.js"></script>
+<style>
+html, body, p {
+ margin: 0;
+ padding: 0;
+ font-family: 'Dancing Script', cursive;
+}
+#bird-bg {
+    width: 100vw;
+    height: 100vh;
+}
+.greeting {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+}
+.stuff {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+</style>
+<body>
+
+    <div id="bird-bg">
+        <p class="greeting">To JiangLin:</p>
+        <p class="stuff">I told you GitHub page is dead easy😆</p>
+    </div>
+    
+</body>
+<script>
+VANTA.BIRDS({
+  el: "#bird-bg"
+})
+</script>
+</html>
